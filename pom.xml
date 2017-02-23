@@ -18,10 +18,11 @@
         <jdk.version>1.8</jdk.version>
         <scala.version>2.12.1</scala.version>
         <scala.major.version>2.12</scala.major.version>
+        <scalameta.version>1.6.0</scalameta.version>
 
         <dev.nick>arthepsy</dev.nick>
         <dev.name>Andris Raugulis</dev.name>
-        <dev.years>2016</dev.years>
+        <dev.years>2017</dev.years>
         <dev.license.name>MIT</dev.license.name>
         <dev.license.url>https://opensource.org/licenses/MITMIT</dev.license.url>
 
@@ -77,6 +78,11 @@
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalameta</groupId>
+            <artifactId>scalameta_${scala.major.version}</artifactId>
+            <version>${scalameta.version}</version>
         </dependency>
 
         <!-- unit tests -->
